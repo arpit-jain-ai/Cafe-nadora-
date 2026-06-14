@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/gallery.controller.js
 // ============================================================
-const Gallery = require('../models/Gallery.model');
+const Gallery = require('../models/gallery.model');
 const path    = require('path');
 const fs      = require('fs');
 

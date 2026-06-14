@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/contact.controller.js
 // ============================================================
-const Contact = require('../models/Contact.model');
+const Contact = require('../models/contact.model');
 const { sendEmail, emailTemplates } = require('../config/email.config');
 
 exports.submitContact = async (req, res, next) => {

@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/event.controller.js
 // ============================================================
-const EventBooking = require('../models/Event.model');
+const EventBooking = require('../models/event.model');
 const { sendEmail } = require('../config/email.config');
 
 exports.createBooking = async (req, res, next) => {

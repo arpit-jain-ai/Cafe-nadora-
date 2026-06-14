@@ -6,8 +6,8 @@ const Order       = require('../models/order.model');
 const Reservation = require('../models/Reservation.model');
 const Review      = require('../models/review.model');
 const Menu        = require('../models/menu.model');
-const Contact     = require('../models/Contact.model');
-const EventBooking= require('../models/Event.model');
+const Contact     = require('../models/contact.model');
+const EventBooking= require('../models/event.model');
 
 // @desc   Full dashboard stats
 // @route  GET /api/admin/dashboard
