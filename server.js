@@ -86,7 +86,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // ── Static Files ─────────────────────────────────────────────
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use(express.static(path.join(__dirname, '../Frontend')));
+app.use(express.static(path.join(__dirname, 'Frontend')));
 
 // ── API Routes ───────────────────────────────────────────────
 app.use('/api/auth',         authRoutes);
@@ -112,7 +112,7 @@ app.get('/api/health', (req, res) => {
 
 // ── Root ─────────────────────────────────────────────────────
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../Frontend/index.html'));
+  res.sendFile(path.join(__dirname, 'Frontend/index.html'));
 });
 
 // ── 404 Handler ──────────────────────────────────────────────
