@@ -39,7 +39,10 @@ connectDB();
 const app = express();
 
 // ── Security Middleware ──────────────────────────────────────
-app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
+app.use(helmet({
+  contentSecurityPolicy: false,
+  crossOriginResourcePolicy: { policy: 'cross-origin' }
+}));
 
 // ── Rate Limiting ────────────────────────────────────────────
 const limiter = rateLimit({
@@ -83,6 +86,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // ── Static Files ─────────────────────────────────────────────
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use(express.static(path.join(__dirname, '../Frontend')));
 
 // ── API Routes ───────────────────────────────────────────────
 app.use('/api/auth',         authRoutes);
@@ -108,25 +112,7 @@ app.get('/api/health', (req, res) => {
 
 // ── Root ─────────────────────────────────────────────────────
 app.get('/', (req, res) => {
-  res.json({
-    success: true,
-    message: 'Welcome to Cafe Nadora Backend API',
-    version: '1.0.0',
-    developer: 'Arpit Jain',
-    docs: '/api/health',
-    endpoints: {
-      auth:         '/api/auth',
-      menu:         '/api/menu',
-      reservations: '/api/reservations',
-      orders:       '/api/orders',
-      reviews:      '/api/reviews',
-      events:       '/api/events',
-      contact:      '/api/contact',
-      loyalty:      '/api/loyalty',
-      admin:        '/api/admin',
-      gallery:      '/api/gallery'
-    }
-  });
+  res.sendFile(path.join(__dirname, '../Frontend/index.html'));
 });
 
 // ── 404 Handler ──────────────────────────────────────────────
