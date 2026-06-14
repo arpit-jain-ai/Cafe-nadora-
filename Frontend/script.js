@@ -177,7 +177,7 @@ function showCartToast(name, total) {
   }
   toast.innerHTML = `
     <span style="color:var(--gold)">✓</span> ${name} added ·
-    <a href="https://wa.me/919001007094?text=I'd+like+to+order:+${encodeURIComponent(activeCart.map(i => i.name).join(', '))}"
+    <a href="https://wa.me/917999588503?text=I'd+like+to+order:+${encodeURIComponent(activeCart.map(i => i.name).join(', '))}"
        target="_blank" style="color:var(--gold)">Order via WhatsApp (₹${total})</a>
   `;
   toast.style.opacity = '1';
@@ -327,14 +327,14 @@ const botResponses = {
   'pizza':              'Our Farmhouse Pizza (₹349) is a crowd-pleaser. For classics, the Margherita (₹299) never fails! 🍕',
   'date night':         'Romantic menu: Panini → Alfredo Pasta → Mango Mocktail → Cheesecake. Total ~₹850 for two! 💑✨',
   'suggest a date night menu': 'Perfect date night: Garlic Bread & Panini to start, Alfredo Pasta as main, Hazelnut Latte & Mango Mocktail to drink, Cheesecake to finish. ~₹850 for two! 💕',
-  'birthday party':     'Birthday packages start at ₹1,999! Custom cakes, decorations & dedicated server. <a href="https://wa.me/919001007094?text=Birthday party booking" target="_blank" style="color:var(--gold)">Book via WhatsApp →</a> 🎂',
-  'birthday party package': 'Birthday packages start at ₹1,999 — custom cake slice, table decoration, dedicated server & a birthday surprise! <a href="https://wa.me/919001007094?text=Birthday party booking" target="_blank" style="color:var(--gold)">Book via WhatsApp →</a>',
-  'reservation':        'Reserve your table via our <a href="#reservation" style="color:var(--gold)">booking form</a> or call <a href="tel:+919001007094" style="color:var(--gold)">+91 90010 07094</a> 📞',
+  'birthday party':     'Birthday packages start at ₹1,999! Custom cakes, decorations & dedicated server. <a href="https://wa.me/917999588503?text=Birthday party booking" target="_blank" style="color:var(--gold)">Book via WhatsApp →</a> 🎂',
+  'birthday party package': 'Birthday packages start at ₹1,999 — custom cake slice, table decoration, dedicated server & a birthday surprise! <a href="https://wa.me/917999588503?text=Birthday party booking" target="_blank" style="color:var(--gold)">Book via WhatsApp →</a>',
+  'reservation':        'Reserve your table via our <a href="#reservation" style="color:var(--gold)">booking form</a> or call <a href="tel:+917999588503" style="color:var(--gold)">+91 79995 88503</a> 📞',
   'timing':             'We\'re open daily from 11:00 AM to 11:00 PM, all 7 days! 🕐',
   'location':           'We\'re at Plot 131, Sahayog Vihar, Gulmohar Colony, Bhopal. <a href="https://maps.google.com" target="_blank" style="color:var(--gold)">Get Directions →</a> 📍',
   'default': [
-    'Great question! Our team would love to help. <a href="https://wa.me/919001007094" target="_blank" style="color:var(--gold)">Chat on WhatsApp →</a>',
-    'For personalised help, we\'re just a WhatsApp message away! <a href="https://wa.me/919001007094" target="_blank" style="color:var(--gold)">Message Us →</a>',
+    'Great question! Our team would love to help. <a href="https://wa.me/917999588503" target="_blank" style="color:var(--gold)">Chat on WhatsApp →</a>',
+    'For personalised help, we\'re just a WhatsApp message away! <a href="https://wa.me/917999588503" target="_blank" style="color:var(--gold)">Message Us →</a>',
   ],
 };
 
@@ -420,7 +420,7 @@ function appendMsg(text, role) {
    13. EVENT BOOKING — WhatsApp Integration
    ============================================================ */
 function bookEvent(name) {
-  const wa = `https://wa.me/919001007094?text=Hello%20Café%20Nadora!%20I%27d%20like%20to%20book:%20${encodeURIComponent(name)}`;
+  const wa = `https://wa.me/917999588503?text=Hello%20Café%20Nadora!%20I%27d%20like%20to%20book:%20${encodeURIComponent(name)}`;
   window.open(wa, '_blank');
 }
 
