@@ -13,7 +13,7 @@ const storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, uploadDir),
   filename:    (req, file, cb) => {
     const unique = `${Date.now()}-${Math.round(Math.random() * 1E6)}`;
-    cb(null, `nadora_${unique}${path.extname(file.originalname)}`);
+    cb(null, `Singhai_${unique}${path.extname(file.originalname)}`);
   }
 });
 

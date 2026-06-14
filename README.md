@@ -1,6 +1,6 @@
-# Cafe-nadora-
+# Cafe-Singhai-
 This is the website for a cafe.
-# ☕ Café Nadora — Premium Website
+# ☕ Café Singhai — Premium Website
 
 **Demo Version | Developed by Arpit Jain**
 
@@ -9,7 +9,7 @@ This is the website for a cafe.
 ## 📁 Project Structure
 
 ```
-cafe_nadora_project/
+cafe_Singhai_project/
 ├── index.html      → Main HTML structure (all 13 sections)
 ├── styles.css      → All CSS styling (609 lines, 23 sections)
 ├── script.js       → All JavaScript logic (403 lines, 14 modules)
@@ -83,7 +83,7 @@ For live hosting:
 8. Reviews Carousel
 9. Counter Animation (Stats)
 10. Scroll Reveal (IntersectionObserver API)
-11. AI Chatbot — Nadora AI
+11. AI Chatbot — Singhai AI
 12. Table Reservation (WhatsApp Integration)
 13. Event Booking (WhatsApp Integration)
 14. Init — DOMContentLoaded
@@ -94,11 +94,11 @@ For live hosting:
 
 | Detail       | Value                                          |
 |--------------|------------------------------------------------|
-| Name         | Café Nadora                                    |
+| Name         | Café Singhai                                    |
 | Address      | Plot 131, Sahayog Vihar, Gulmohar Colony, Bhopal |
 | Phone        | +91 90010 07094                                |
 | Hours        | Daily · 11:00 AM – 11:00 PM                   |
-| WhatsApp     | wa.me/919001007094                             |
+| WhatsApp     | wa.me/917999588503                         |
 
 ---
 
@@ -117,4 +117,4 @@ For live hosting:
 
 ---
 
-*© 2025 Café Nadora · Demo Version Developed by Arpit Jain*
+*© 2025 Café Singhai · Demo Version Developed by Arpit Jain*

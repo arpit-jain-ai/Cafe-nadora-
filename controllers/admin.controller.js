@@ -121,7 +121,7 @@ exports.setupAdmin = async (req, res, next) => {
 
     const admin = await User.create({
       name:     'Singhai Cafe Admin',
-      email:    process.env.ADMIN_EMAIL    || 'admin@cafenadora.com',
+      email:    process.env.ADMIN_EMAIL    || 'admin@cafeSinghai.com',
       password: process.env.ADMIN_PASSWORD || 'Admin@2025',
       role:     'admin',
       phone:    '7999588503'

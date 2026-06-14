@@ -13,7 +13,7 @@ exports.submitContact = async (req, res, next) => {
       try {
         await sendEmail({
           to: email,
-          subject: 'We received your message — Café Nadora',
+          subject: 'We received your message — Café Singhai',
           html: emailTemplates.contactReply({ name, message })
         });
       } catch (e) { console.error('Contact email error:', e.message); }

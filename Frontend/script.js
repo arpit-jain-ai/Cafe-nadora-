@@ -238,8 +238,8 @@ function openLightbox(emoji, label) {
    ============================================================ */
 const reviews = [
   { name: 'Priya Sharma',  avatar: 'PS', date: '2 weeks ago',  rating: 5, text: 'Absolutely stunning café! The Alfredo pasta melted in my mouth and the cappuccino was world-class. The ambience is perfect for a date night. Will definitely return!' },
-  { name: 'Rahul Verma',   avatar: 'RV', date: '1 month ago',  rating: 5, text: "Nadora AI helped me plan the perfect anniversary dinner. The staff was incredibly attentive and the food was phenomenal. The cheesecake is the best in Bhopal!" },
-  { name: 'Ananya Singh',  avatar: 'AS', date: '3 weeks ago',  rating: 5, text: "As a coffee lover, I've been to many cafes in Bhopal, but Café Nadora truly stands apart. The hazelnut latte is divine and the bakery items are fresh every single day." },
+  { name: 'Rahul Verma',   avatar: 'RV', date: '1 month ago',  rating: 5, text: "Singhai AI helped me plan the perfect anniversary dinner. The staff was incredibly attentive and the food was phenomenal. The cheesecake is the best in Bhopal!" },
+  { name: 'Ananya Singh',  avatar: 'AS', date: '3 weeks ago',  rating: 5, text: "As a coffee lover, I've been to many cafes in Bhopal, but Café Singhai truly stands apart. The hazelnut latte is divine and the bakery items are fresh every single day." },
   { name: 'Vikram Patel',  avatar: 'VP', date: '1 week ago',   rating: 4, text: 'Great place to work from! Fast WiFi, comfortable seating, excellent coffee. The cold coffee is super refreshing. Would recommend to all work-from-café people in the city.' },
   { name: 'Shreya Joshi',  avatar: 'SJ', date: '2 months ago', rating: 5, text: "We celebrated my daughter's birthday here and it was magical! The team decorated the table beautifully, the custom cake was perfect. 10/10 for the experience." },
   { name: 'Arjun Mishra',  avatar: 'AM', date: '3 days ago',   rating: 5, text: "The pizza is genuinely wood-fire quality and the pasta rivals any Italian restaurant I've been to in bigger cities. Bhopal needed a place like this. Brilliant!" },
@@ -314,12 +314,12 @@ function observeReveal() {
 }
 
 /* ============================================================
-   11. AI CHATBOT — Nadora AI
+   11. AI CHATBOT — Singhai AI
    ============================================================ */
 const botResponses = {
   'what should i order': [
     'Our top picks right now: Alfredo Pasta (₹249), Hazelnut Latte (₹189), and Cheesecake (₹179). A crowd-favourite trio! 😍',
-    'Try our Cappuccino + Margherita Pizza + Cheesecake combo — the ultimate Nadora experience! ☕🍕🍰',
+    'Try our Cappuccino + Margherita Pizza + Cheesecake combo — the ultimate Singhai experience! ☕🍕🍰',
   ],
   'coffee':             'Try our Hazelnut Latte (₹189) or the classic Cappuccino (₹149). Both are barista favourites! ☕',
   'coffee under ₹200':  'We have Espresso (₹99), Cappuccino (₹149), Café Latte (₹159), and Cold Coffee (₹169) — all under ₹200! ☕',
@@ -420,7 +420,7 @@ function appendMsg(text, role) {
    13. EVENT BOOKING — WhatsApp Integration
    ============================================================ */
 function bookEvent(name) {
-  const wa = `https://wa.me/917999588503?text=Hello%20Café%20Nadora!%20I%27d%20like%20to%20book:%20${encodeURIComponent(name)}`;
+  const wa = `https://wa.me/917999588503?text=Hello%20Café%20Singhai!%20I%27d%20like%20to%20book:%20${encodeURIComponent(name)}`;
   window.open(wa, '_blank');
 }
 

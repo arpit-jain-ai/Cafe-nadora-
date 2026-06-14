@@ -47,7 +47,7 @@ exports.register = async (req, res, next) => {
     }
 
     const user = await User.create({ name, email, phone, password, birthday });
-    sendTokenResponse(user, 201, res, 'Registration successful! Welcome to Café Nadora 🎉');
+    sendTokenResponse(user, 201, res, 'Registration successful! Welcome to Café Singhai 🎉');
   } catch (error) {
     next(error);
   }

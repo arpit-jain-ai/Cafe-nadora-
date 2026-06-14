@@ -36,7 +36,7 @@ exports.createReservation = async (req, res, next) => {
       try {
         await sendEmail({
           to: email,
-          subject: `Reservation Confirmed — Café Nadora #${reservation.bookingId}`,
+          subject: `Reservation Confirmed — Café Singhai #${reservation.bookingId}`,
           html: emailTemplates.reservationConfirmed({
             name, date: new Date(date).toLocaleDateString('en-IN'),
             time, guests, occasion

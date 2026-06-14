@@ -80,7 +80,7 @@ exports.placeOrder = async (req, res, next) => {
       try {
         await sendEmail({
           to: customerEmail,
-          subject: `Order Received #${order.orderId} — Café Nadora`,
+          subject: `Order Received #${order.orderId} — Café Singhai`,
           html: emailTemplates.orderReceived({
             customerName, orderId: order.orderId,
             items: validatedItems, totalAmount
