@@ -14,7 +14,14 @@ const ReservationSchema = new mongoose.Schema({
   guests:    { type: Number, required: true, min: 1, max: 50 },
   occasion: {
     type: String,
-    enum: ['none', 'birthday', 'anniversary', 'date_night', 'business', 'family', 'other'],
+    enum: [
+  "Birthday Celebration",
+  "Anniversary",
+  "Date Night",
+  "Business Meeting",
+  "Family Dinner",
+  "Other"
+] ,
     default: 'none'
   },
   specialRequest: { type: String, maxlength: 500 },
