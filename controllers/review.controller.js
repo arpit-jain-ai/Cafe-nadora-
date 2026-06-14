@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/review.controller.js
 // ============================================================
-const Review = require('../models/Review.model');
+const Review = require('../models/review.model');
 const Menu   = require('../models/menu.model');
 
 exports.createReview = async (req, res, next) => {
