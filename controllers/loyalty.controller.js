@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/loyalty.controller.js
 // ============================================================
-const User  = require('../models/User.model');
+const User = require('../models/user.model');
 const Order = require('../models/Order.model');
 
 exports.getMyLoyalty = async (req, res, next) => {

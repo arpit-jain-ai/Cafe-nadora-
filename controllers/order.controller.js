@@ -3,7 +3,7 @@
 // ============================================================
 const Order = require('../models/Order.model');
 const Menu  = require('../models/Menu.model');
-const User  = require('../models/User.model');
+const User = require('../models/user.model');
 const { sendEmail, emailTemplates } = require('../config/email.config');
 
 // @desc   Place new order

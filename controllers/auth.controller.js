@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/auth.controller.js
 // ============================================================
-const User         = require('../models/user.model');
+const User = require('../models/user.model');
 const { sendEmail, emailTemplates } = require('../config/email.config');
 
 // Helper: send token response
