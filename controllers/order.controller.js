@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/order.controller.js
 // ============================================================
-const Order = require('../models/Order.model');
+const Order = require('../models/order.model');
 const Menu  = require('../models/menu.model');
 const User = require('../models/user.model');
 const { sendEmail, emailTemplates } = require('../config/email.config');

@@ -2,7 +2,7 @@
 // controllers/admin.controller.js — Dashboard & Analytics
 // ============================================================
 const User        = require('../models/user.model');
-const Order       = require('../models/Order.model');
+const Order       = require('../models/order.model');
 const Reservation = require('../models/Reservation.model');
 const Review      = require('../models/Review.model');
 const Menu        = require('../models/menu.model');
