@@ -1,7 +1,7 @@
 // ============================================================
 // controllers/menu.controller.js
 // ============================================================
-const Menu = require('../models/Menu.model');
+const Menu = require('../models/menu.model');
 
 // @desc   Get all menu items (with filters)
 // @route  GET /api/menu

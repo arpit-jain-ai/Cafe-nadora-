@@ -5,7 +5,7 @@ const User        = require('../models/user.model');
 const Order       = require('../models/Order.model');
 const Reservation = require('../models/Reservation.model');
 const Review      = require('../models/Review.model');
-const Menu        = require('../models/Menu.model');
+const Menu        = require('../models/menu.model');
 const Contact     = require('../models/Contact.model');
 const EventBooking= require('../models/Event.model');
 
