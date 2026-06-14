@@ -1,7 +1,7 @@
 {
   "name": "cafe-nadora-backend",
   "version": "1.0.0",
-  "description": "Cafe Nadora - Premium Restaurant Backend API",
+  "description": "Singhai Cafe - Premium Restaurant Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

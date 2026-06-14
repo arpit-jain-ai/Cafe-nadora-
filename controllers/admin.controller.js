@@ -120,11 +120,11 @@ exports.setupAdmin = async (req, res, next) => {
     if (existing) return res.status(400).json({ success: false, message: 'Admin already exists' });
 
     const admin = await User.create({
-      name:     'Cafe Nadora Admin',
+      name:     'Singhai Cafe Admin',
       email:    process.env.ADMIN_EMAIL    || 'admin@cafenadora.com',
       password: process.env.ADMIN_PASSWORD || 'Admin@2025',
       role:     'admin',
-      phone:    '9001007094'
+      phone:    '7999588503'
     });
 
     const token = admin.getSignedJwtToken();

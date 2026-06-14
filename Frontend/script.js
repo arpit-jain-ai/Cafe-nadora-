@@ -1,5 +1,5 @@
 /* ============================================================
-   CAFE NADORA — script.js
+   Singhai Cafe — script.js
    All Interactive JavaScript Logic
    Developed by: Arpit Jain (Demo Version)
    ============================================================ */

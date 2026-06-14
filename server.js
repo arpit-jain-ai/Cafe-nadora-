@@ -1,5 +1,5 @@
 // ============================================================
-// CAFE NADORA — server.js (Entry Point)
+// Singhai Cafe — server.js (Entry Point)
 // Developed by: Arpit Jain
 // ============================================================
 
@@ -104,7 +104,7 @@ app.use('/api/gallery',      galleryRoutes);
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'Cafe Nadora API is running!',
+    message: 'Singhai Cafe API is running!',
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV
   });
@@ -126,7 +126,7 @@ app.use(errorHandler);
 // ── Start Server ─────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 const server = app.listen(PORT, () => {
-  console.log(`\n☕  Cafe Nadora API running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+  console.log(`\n☕  Singhai Cafe API running in ${process.env.NODE_ENV} mode on port ${PORT}`);
   console.log(`🔗  http://localhost:${PORT}`);
   console.log(`👨‍💻  Developed by Arpit Jain\n`);
 });
